@@ -7,25 +7,13 @@ export default function About() {
         <div className="space-y-4">
           <h1 className="text-4xl font-bold tracking-tight">About</h1>
           <p className="text-lg text-muted-foreground">
-            Welcome to my research blog where I share insights and findings.
+            Hello, I am Mahela Wickramasinghe.
           </p>
         </div>
 
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p>
-            Welcome to my research blog where I share insights, findings, and explorations
-            in various fields of study. This platform serves as a digital repository
-            of my academic journey and professional research endeavors.
-          </p>
-          <p>
-            I believe in making complex research accessible to broader audiences while
-            maintaining scientific rigor. Through this blog, I aim to bridge the gap
-            between academic research and practical applications.
-          </p>
-          <p>
-            My work spans multiple disciplines, and I'm passionate about interdisciplinary
-            approaches to solving real-world problems. Each article represents a deep
-            dive into topics that matter for our future.
+            This site is a personal research log dedicated to exploring the practical application of AI agents in complex enterprise systems. My work focuses on deconstructing the operational friction between disconnected departments and designing new models for intelligent workflow orchestration. The goal is to document a clear path toward building more resilient and autonomous business infrastructures.
           </p>
         </div>
       </div>
