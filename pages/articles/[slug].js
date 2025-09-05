@@ -30,7 +30,12 @@ export default function Article({ post, relatedArticles, previousArticle, nextAr
             </h1>
             
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-              {post.date && <span>{post.date}</span>}
+              {post.date && (
+                <span>
+                  {post.date}
+                  {post.updated && <span className="text-xs ml-2 italic">(Updated: {post.updated})</span>}
+                </span>
+              )}
               {post.author && (
                 <>
                   <span>•</span>
@@ -213,6 +218,7 @@ export async function getStaticProps({ params }) {
       post: {
         title: data.title || '',
         date: data.date || '',
+        updated: data.updated || null,
         author: data.author || null,
         readTime: data.readTime || null,
         keywords: data.keywords || [],

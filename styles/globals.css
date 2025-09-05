@@ -457,6 +457,54 @@
     padding-left: 2rem;
     text-indent: -2rem;
   }
+
+  /* Custom footnote styling */
+  .article-content sup a {
+    color: #B8860B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .article-content sup a:hover {
+    color: #996F0B;
+    text-decoration: underline;
+  }
+
+  .dark .article-content sup a {
+    color: #B8860B;
+  }
+
+  .dark .article-content sup a:hover {
+    color: #DAA520;
+  }
+
+  /* Footnotes section styling */
+  .footnotes-section {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+
+  .footnotes-section span {
+    display: block;
+    margin-bottom: 1.95rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .footnotes-section span:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Author remarks styling */
+  .author-remark {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+
+  .dark .author-remark {
+    color: #9ca3af;
+  }
 }
 
 /* Academic responsive typography */
